@@ -13,6 +13,16 @@
 </head>
 <body class="bg-light">
     <div class="container mt-5">
+    <div class="card-header">
+        <h1 class="h4">Consigna</h1>
+    </div>
+    <p>
+        Modificar el formulario del ejercicio anterior solicitando, con componentes “radio buttons”, 
+        que se ingrese el nivel de estudio de la persona: 1 - no tiene estudios, 2 - estudios 
+        primarios, 3 - estudios secundarios. Agregar el componente que creas más 
+        apropiado para solicitar el sexo. En la página que procesa el formulario, mostrar además 
+        un mensaje que indique el tipo de estudios que posee y su sexo.
+    </p>
         <h1 class="text-center">Ingrese sus datos</h1>
         <form id="formEj5" name="formEj5" method="get" action="Action/actionEj5.php" >
             <div class="mb-3">
@@ -63,6 +73,10 @@
             </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
+        
+    </div>
+    <div class="mt-4 p-5">
+        <a href="../../Menu.php" class="btn btn-secondary">Volver al menú</a>
     </div>
     <script src="Bootstrap/js/bootstrap.min.js"></script>
 </body>

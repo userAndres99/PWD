@@ -12,6 +12,16 @@
 </head>
 <body class="bg-light">
     <div class="container mt-5">
+    <div class="card-header">
+        <h1 class="h4">Consigna</h1>
+    </div>
+    <p>
+        Crear una página con un formulario que contenga dos input de tipo text y un select. En 
+        los inputs se ingresarán números y el select debe dar la opción de una operación 
+        matemática que podrá resolverse usando los números ingresados. En la página que 
+        procesa la información se debe mostrar por pantalla la operación seleccionada, cada 
+        uno de los operandos y el resultado obtenido de resolver la operación.
+    </p>
         <h1 class="text-center">Operaciones Matemáticas</h1>
         <form id="formEj7" name="formEj7" method="get" action="Action/actionEj7.php" >
             <div class="mb-3">
@@ -32,6 +42,10 @@
             </div>
             <button type="submit" class="btn btn-primary">Calcular</button>
         </form>
+        
+    </div>
+    <div class="mt-4 p-5">
+        <a href="../../Menu.php" class="btn btn-secondary">Volver al menú</a>
     </div>
     <script src="Bootstrap/js/bootstrap.min.js"></script>
 </body>

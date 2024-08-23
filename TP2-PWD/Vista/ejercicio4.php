@@ -11,6 +11,19 @@
     <script src="../Utils/Validaciones.js"></script>
 </head>
 <body>
+    <div class="pt-5 ps-5"> 
+        <div class="card-header">
+            <h1 class="h4">Consigna</h1>
+        </div>
+        <p>Diseñar un formulario que permita cargar las películas de la empresa Cinem@s. La lista de géneros tiene los siguientes datos: Comedia, Drama, Terror, Románticas, Suspenso, Otras. Aplicar Bootstrap y validar lo siguiente:</p>
+            <ul>
+                <li>El año debe ser un campo que permita ingresar como máximo 4 caracteres y solo aceptar números.</li>
+                <li>El campo duración debe permitir un máximo de 3 números.</li>
+                <li>Todos los datos son obligatorios.</li>
+                <li>Al hacer clic en el botón “Enviar”, se deberán mostrar todos los datos ingresados en el formulario.</li>
+                <li>El botón “Borrar” debe limpiar el formulario.</li>
+            </ul>
+    </div>
     <div class="container mt-5">
         <!-- título -->
         <div class="d-flex align-items-center mb-4">
@@ -98,6 +111,9 @@
                 <button type="reset" class="btn btn-secondary">Borrar</button>
             </div>
         </form>
+    </div>
+    <div class="mt-4 p-5">
+            <a href="../../Menu.php" class="btn btn-secondary">Volver al menú</a>
     </div>
     <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="Utils/Validaciones.js"></script>

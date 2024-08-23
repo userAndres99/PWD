@@ -11,6 +11,13 @@
     <script src="../Utils/Validaciones.js"></script>
 </head>
 <body>
+    <div class="card-header">
+        <h1 class="h4">Consigna</h1>
+    </div>
+    <p>Agregue al formulario creado en el ejercicio 10 del práctico 2 un input file que les permita adjuntar la imagen 
+        de la película que se está cargando. Cuando se envíe el formulario, se deberá guardar la imagen y luego 
+        mostrarla junto con la información cargada en el formulario.
+    </p>
     <div class="container mt-5">
         <!-- título -->
         <div class="d-flex align-items-center mb-4">
@@ -106,5 +113,8 @@
     </div>
     <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="Utils/Validaciones.js"></script>
+    <div class="mt-4 p-5">
+        <a href="../../Menu.php" class="btn btn-secondary">Volver al menú</a>
+    </div>
 </body>
 </html>

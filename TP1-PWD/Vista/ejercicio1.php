@@ -42,7 +42,12 @@
                 </form>
             </div>
         </div>
+        
     </div>
+    <div class="mt-4 p-5">
+        <a href="../../Menu.php" class="btn btn-secondary">Volver al menú</a>
+    </div>
+    
     
     <!-- Enlace a Bootstrap-->
     <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>

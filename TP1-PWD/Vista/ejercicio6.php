@@ -12,6 +12,14 @@
 </head>
 <body class="bg-light">
     <div class="container mt-5">
+    <div class="card-header">
+        <h1 class="h4">Consigna</h1>
+    </div>
+    <p>
+        Modificar el formulario del ejercicio anterior para que permita seleccionar los diferentes 
+        deportes que practica un alumno (fútbol, básquet, tenis, vóley). Mostrar en la página 
+        que procesa el formulario la cantidad de deportes que practica.
+    </p>
         <h1 class="text-center">Ingrese sus datos</h1>
         <form id="formEj6" name="formEj6" method="get" action="Action/actionEj6.php" >
             <div class="mb-3">
@@ -73,6 +81,10 @@
             </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
+        
+    </div>
+    <div class="mt-4 p-5">
+        <a href="../../Menu.php" class="btn btn-secondary">Volver al menú</a>
     </div>
     <script src="Bootstrap/js/bootstrap.min.js"></script>
 </body>

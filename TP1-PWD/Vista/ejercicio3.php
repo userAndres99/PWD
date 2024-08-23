@@ -12,6 +12,16 @@
 </head>
 <body class="bg-light">
     <div class="container mt-5">
+    <div class="card-header">
+        <h1 class="h4">Consigna</h1>
+    </div>
+    <p>
+        Crear una página PHP que contenga un formulario HTML como el que se indica en la 
+        imagen (darle formato con CSS). Enviar estos datos por el método POST a otra página PHP 
+        que los reciba y muestre por pantalla un mensaje como el siguiente: “Hola, yo soy 
+        nombre, apellido, tengo edad años y vivo en dirección”, usando la información recibida. 
+        Cambiar el método POST por GET y analizar las diferencias.
+    </p>
         <h1 class="text-center mb-4">Complete el Formulario</h1>
         <form id="formEj3y4" name="formEj3y4" method="post" action="Action/actionEj3.php" >
             <div class="mb-3">
@@ -32,6 +42,10 @@
             </div>
             <button type="submit" class="btn btn-primary mt-3">Enviar</button>
         </form>
+        
+    </div>
+    <div class="mt-4 p-5">
+        <a href="../../Menu.php" class="btn btn-secondary">Volver al menú</a>
     </div>
     <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
