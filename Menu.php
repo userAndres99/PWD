@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menú de Ejercicios</title>
-    <!-- Agregar un enlace a Bootstrap para estilizar el menú -->
+    <!--  enlace a Bootstrap para estilizar el menu-->
     <link href="TP1-PWD/Vista/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
